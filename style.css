@@ -1,0 +1,243 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background-image: url("video.mp4") no-repeat center center fixed;
+    background-size: cover;
+  }
+  
+  header {
+    background-color: #c814ff;
+    color: rgb(32, 32, 32);
+    padding: 10px;
+    text-align: center;
+  }
+  
+  main {
+    margin: 20px;
+  }
+  
+  h2 {
+    animation: color-change 2s infinite;
+    color: #080808;
+    font-size: 24px;
+    text-align: center;
+  }
+  
+  ul {
+    color: aliceblue;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  li {
+    color: white;
+    margin-right: 10px;
+  }
+  
+  form {
+    margin-top: 40px;
+  }
+  
+  label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  input[type="text"], input[type="email"], textarea {
+    display: block;
+    margin-bottom: 10px;
+    width: 100%;
+  }
+  
+  input[type="submit"] {
+    background-color: #333;
+    border: none;
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+    padding: 10px 20px;
+  }
+  
+  input[type="submit"]:hover {
+    background-color: #ce7a7a;
+  }
+  
+  img {
+    width: 10%; 
+    height: auto; 
+    text-align: center;
+  }
+
+  @font-face {
+    font-family:"WSwold";
+    src: url(font/minecraft.ttf);
+  }
+
+  h2 {
+    font-family: "WSwold";
+    transform: translateX(-100%); 
+    animation: slideIn 2s ease-out forwards;
+  }
+  
+ 
+  @keyframes slideIn {
+    from {
+      transform: translateX(-100%); /* Начальное значение сдвига */
+    }
+    to {
+      transform: translateX(0); /* Конечное значение сдвига */
+    }
+  }
+
+  p {
+    opacity: 0; /* Устанавливаем начальную прозрачность в 0 */
+    animation: fadeIn 2s ease-out forwards; /* Запускаем анимацию с продолжительностью 2 секунды */
+  }
+  
+  /* Определяем анимацию */
+  @keyframes fadeIn {
+    from {
+      opacity: 0; /* Начальное значение прозрачности */
+    }
+    to {
+      opacity: 1; /* Конечное значение прозрачности */
+    }
+  }
+
+  .li {
+    color: aliceblue;
+    font-family: "WSwold";
+    text-align: center;
+  }
+
+  img {
+    position: relative;
+    top: 20px;
+    left: 20px;
+    text-align: center;
+  }
+  
+  video {
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+
+  .blurry-video.mp4 {
+    backdrop-filter: blur(50px);
+  }
+  
+
+  h2  {
+    position: relative;
+    top: 10px;
+    left: 10px;
+    text-align: center;
+  }
+  p {
+    color: aliceblue;
+    font-family: "WSwold";
+    text-align: center;
+    padding-left: 40px;
+    padding-top: 30px;}
+
+    .gallery{
+      text-align: center;
+    }
+  .po{
+    color: white;
+    text-align: center;
+    font-family: "WSwold";
+  }
+
+  .social-links {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0;
+  }
+  
+  .social-link {
+    text-align: center;
+    margin: 0 10px;
+    font-size: 24px;
+    color: #333;
+  }
+  
+  .social-link i {
+    transition: color 0.3s ease-in-out;
+  }
+  
+  .social-link:hover i {
+    color: #3b5998;
+  }
+
+  .button-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .parent{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .my-button{
+    text-align: center;
+  }
+
+  button{
+  color: aliceblue;
+  font-family: "WSwold";
+  text-align: center;
+  padding-left: 40px;
+  padding-top: 30px;
+  background-color: transparent;
+  border: none;
+  color: blue;
+  cursor: pointer;
+  text-decoration: underline;
+text-shadow: white;}
+
+.p1 {
+  color: aliceblue;
+  font-family: "WSwold";
+  text-align: center;
+  padding-left: 40px;
+  padding-top: 30px;
+  opacity: 0; /* Устанавливаем начальную прозрачность в 0 */
+  animation: fadeIn 2s ease-out forwards; /* Запускаем анимацию с продолжительностью 2 секунды */}
+
+  .button-link {
+    background-color: #7f3eca; /* Цвет фона кнопки */
+    border: none; /* Убрать границу */
+    color: white; /* Цвет текста на кнопке */
+    padding: 12px 24px; /* Внутренний отступ */
+    text-align: center; /* Выравнивание текста по центру */
+    text-decoration: none; /* Убрать подчеркивание */
+    display: inline-block; /* Сделать кнопку блочным элементом */
+    font-size: 16px; /* Размер шрифта */
+    margin: 4px 2px; /* Внешний отступ */
+    cursor: pointer; /* Стиль курсора при наведении */
+    border-radius: 8px; /* Радиус скругления углов */
+    transition-duration: 0.4s; /* Длительность анимации при наведении */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  
+  
+  }
+
+  .button:hover {
+    background-color: #3e8e41; /* Цвет фона кнопки при наведении */
+  }
+
+  img {
+    border-radius: 20px;
+  }
